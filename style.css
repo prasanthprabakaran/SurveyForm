@@ -51,11 +51,23 @@ table{
     height: 110px;
     
 }
+tbody{
+
+}
 th{
     font-size: 13px;
     font-weight: lighter;
-    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 30px;
 }
+td{
+    font-weight: lighter;
+    text-align: left;
+    width: 50px;
+    height: 30px;
+}
+
 .greyrow {
     background-color: #F1F1F1;
 }
@@ -65,4 +77,20 @@ th{
 
 label{
     font-weight: bold;
+}
+
+.submit{
+    padding: 7px 7px;
+    font-weight: lighter;
+}
+#Email {
+    width: 400px;
+    height: 20px;
+}
+#Name,#LastName{
+    width: 190px;
+    height: 20px;
+}
+#lastname{
+    margin-left: 10px;
 }

@@ -14,9 +14,11 @@
             <label for="Name">Name</label><label for="namestar" style="color: red;">*</label><br>
             <input type="text" name="First" id="Name">
             
-            <input type="text" name="Last" id="LastName"><br><br>
+            <input type="text" name="Last" id="LastName"><br>
+            <label for="first" style="font-weight:lighter; font-size: 12px;">First</label>
+            <label for="last" style="font-weight:lighter; font-size: 12px; margin-left: 180px;">Last</label><br>
             <label for="Email">Email</label><label for="namestar" style="color: red;">*</label><br>
-            <input type="email" name="Email" id="Email"><br><br>
+            <input type="email" name="Email" id="Email" ><br><br>
 
             
 
@@ -52,7 +54,7 @@
                 </thead>
                 <tbody>
                     <tr class="greyrow">
-                        <td>Purchase</td>
+                        <td class="side-title">Purchase</td>
                         <td class="buttons"><input type="radio" name="star011" id="star011"><label for="star011"></label></td>
                         <td class="buttons"><input type="radio" name="star012" id="star012"><label for="star012"></label></td>
                         <td class="buttons"><input type="radio" name="star013" id="star013"><label for="star013"></label></td>
@@ -60,7 +62,7 @@
                         <td class="buttons"><input type="radio" name="star015" id="star015"><label for="star015"></label></td>
                     </tr>
                     <tr>
-                        <td>Service</td>
+                        <td class="side-title">Service</td>
                         <td class="buttons"><input type="radio" name="star021" id="star021"><label for="star021"></label></td>
                         <td class="buttons"><input type="radio" name="star022" id="star022"><label for="star022"></label></td>
                         <td class="buttons"><input type="radio" name="star023" id="star023"><label for="star023"></label></td>
@@ -68,7 +70,7 @@
                         <td class="buttons"><input type="radio" name="star025" id="star025"><label for="star025"></label></td>
                     </tr>
                     <tr class="greyrow">
-                        <td>Company Overall</td>
+                        <td class="side-title">Company Overall</td>
                         <td class="buttons"><input type="radio" name="star031" id="star031"><label for="star031"></label></td>
                         <td class="buttons"><input type="radio" name="star032" id="star032"><label for="star032"></label></td>
                         <td class="buttons"><input type="radio" name="star033" id="star033"><label for="star033"></label></td>
@@ -93,7 +95,7 @@
                 </thead>
                 <tbody>
                     <tr class="greyrow">
-                        <td>Buy from us again</td>
+                        <td class="side-title">Buy from us again</td>
                         <td class="buttons"><input type="radio" name="star111" id="star111"><label for="star111"></label></td>
                         <td class="buttons"><input type="radio" name="star112" id="star112"><label for="star112"></label></td>
                         <td class="buttons"><input type="radio" name="star113" id="star113"><label for="star113"></label></td>
@@ -101,7 +103,7 @@
                         <td class="buttons"><input type="radio" name="star115" id="star115"><label for="star115"></label></td>
                     </tr>
                     <tr>
-                        <td>Recommend our product to other</td>
+                        <td class="side-title">Recommend our product to other</td>
                         <td class="buttons"><input type="radio" name="star121" id="star121"><label for="star121"></label></td>
                         <td class="buttons"><input type="radio" name="star122" id="star122"><label for="star122"></label></td>
                         <td class="buttons"><input type="radio" name="star123" id="star123"><label for="star123"></label></td>
@@ -109,7 +111,7 @@
                         <td class="buttons"><input type="radio" name="star125" id="star125"><label for="star125"></label></td>
                     </tr>
                     <tr class="greyrow">
-                        <td>Recommend our company to others</td>
+                        <td class="side-title">Recommend our company to others</td>
                         <td class="buttons"><input type="radio" name="star131" id="star131"><label for="star131"></label></td>
                         <td class="buttons"><input type="radio" name="star132" id="star132"><label for="star132"></label></td>
                         <td class="buttons"><input type="radio" name="star133" id="star133"><label for="star133"></label></td>
@@ -119,9 +121,9 @@
                 </tbody>
             </table>
         </div>
-        <h4>Additional comments or suggestions</h4>
+        <br><label for="Heading">Additional comments or suggestions</label><br>
         <textarea name="text" id="text" cols="79" rows="7"></textarea><br>
-        <input type="submit" value="submit" name="Submit">
+        <input class="submit" type="submit" value="submit" name="Submit">
     </div>
 
 
