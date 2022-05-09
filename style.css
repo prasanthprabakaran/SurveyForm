@@ -1,0 +1,68 @@
+
+.rating {
+    position:absolute;
+    display: flex;
+    direction: rtl;
+    
+}
+
+.rating input{
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 25px;
+    padding-right: 5px;
+    
+}
+
+.rating label::before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 25px;
+    color: grey;
+    
+}
+.rating label::after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 25px;
+    color: #EEAC82;
+    top:0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.rating label:hover::after,
+.rating label:hover ~ label::after,
+.rating input:checked ~ label::after{
+    opacity: 1;
+}
+
+table{
+    border-collapse: collapse;
+    width: 600px;
+    height: 110px;
+    
+}
+th{
+    font-size: 13px;
+    font-weight: lighter;
+    align-items: center;
+}
+.greyrow {
+    background-color: #F1F1F1;
+}
+.buttons{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
